@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0,0,0);
+  color: white;
+  overflow: hidden;
+  cursor: none;
+  scrollbar-width: none;
+}
+
+
+#countryTable{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 40px;
+  position: relative;
+  left: 100px;
+}
+
+#weatherTable{
+  border-spacing: 80px 0px;
+}
+
+#gmailTable{
+  font-family: "Apple Chancery" , cursive;
+
+}
+
+#gTable{
+  border-spacing: 50px 0px;
+}
+
+#titleTable{
+  font-size: 30px;
+}
+
+#spotify{
+  position: absolute;
+  left: 1350px;
+  top: 300px;
+  font-family: "Apple Chancery" , cursive;
+  font-size: 20px;
+}
+
+#spotify-table{
+  text-align: center;
+}

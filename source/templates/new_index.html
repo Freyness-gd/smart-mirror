@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <title> SmartAssistant </title>
+  <link rel="shortcut icon" type="image/png" href="https://game-icons.net/icons/ffffff/000000/1x1/lorc/mirror-mirror.png"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"> </script>
+  <!-- <script type="text/javascript" src="url_for('static', filename='my_lib.js')"></script> -->
+  <link rel="stylesheet" href="static/clock.css">
+  <link rel="stylesheet" href="static/style.css">
+</head>
+
+
+
+<body>
+
+  <br />
+  <br />
+
+  <div class="clock">
+    <div class="hours">
+      <div class="first">
+        <div class="number">0</div>
+      </div>
+      <div class="second">
+        <div class="number">0</div>
+      </div>
+    </div>
+    <div class="tick">:</div>
+    <div class="minutes">
+      <div class="first">
+        <div class="number">0</div>
+      </div>
+      <div class="second">
+        <div class="number">0</div>
+      </div>
+    </div>
+    <!-- <div class="tick">:</div>
+    <div class="seconds">
+      <div class="first">
+        <div class="number">0</div>
+      </div>
+      <div class="second infinite">
+        <div class="number">0</div>
+      </div>
+    </div> -->
+  </div>
+
+
+    <div id="countryTable">
+
+        <table id="weatherTable">
+<!--          <tr>
+
+            <th> City Name </th>
+            <th> Temperature °C</th>
+            <th> Humidity </th>
+            <th> Weather Type </th>
+
+          </tr>
+-->
+          <tr>
+
+            <td id="city"> test </td>
+            <td id="temp"> test </td>
+            <td id="humidity"> test </td>
+            <td> <img src="static/img/sun.png" alt="weather-type", height="75" width="75"/> </td>
+
+          </tr>
+
+        </table>
+
+
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div id="gmailTable">
+
+      <table id="gTable">
+        <tr>
+          <th id="titleTable"> Subject </th>
+          <th id="titleTable"> Snippet </th>
+          <th id="titleTable"> Date </th>
+        </tr>
+
+        <tr>
+          <td id="sub1"> </td>
+          <td id="snip1"> </td>
+          <td id="date1"> </td>
+        </tr>
+
+        <tr>
+          <td id="sub2"> </td>
+          <td id="snip2"> </td>
+          <td id="date2"> </td>
+        </tr>
+        <tr>
+          <td id="sub3"> </td>
+          <td id="snip3"> </td>
+          <td id="date3"> </td>
+        </tr>
+        <tr>
+          <td id="sub4"> </td>
+          <td id="snip4"> </td>
+          <td id="date4"> </td>
+        </tr>
+        <tr>
+          <td id="sub5"> </td>
+          <td id="snip5"> </td>
+          <td id="date5"> </td>
+        </tr>
+      </table>
+
+    </div>
+
+    <div id="spotify">
+
+      <br />
+
+      <table id="spotify-table">
+        <tr>
+          <td> <img id="img", src="", alt="track_img", height="350" width="350"/> </td>
+        </tr>
+        <tr>
+          <td id="artist">?</td>
+        </tr>
+        <tr>
+          <td id="track">?</td>
+        </tr>
+      </table>
+
+    </div>
+
+
+
+  <!--
+    <br />
+    <button id="log_in" onclick="window.location.href='http://127.0.0.1:5000/spotify_login';"> LOG IN!</button>
+    <button id="shutdown"> SHUTDOWN!</button>
+    <button id="previous"> Previouse Track </button>
+    <button id="resume"> Resume </button>
+    <button id="pause"> Pause </button>
+    <button id="next"> Next Track </button>
+ <button id="trackbutt"> Track TEST </button> -->
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"> </script>
+<script src="static/js/app.js"> </script>
+<script src="static/js/clock.js"> </script>
+
+</html>
